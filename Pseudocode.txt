@@ -1,0 +1,29 @@
+READ dan SAVE sebuah data array pada 'singer'
+READ dan SAVE sebuah data array pada 'song_list_chigga'
+READ dan SAVE sebuah data array pada 'song_lisg_logic'
+READ dan SAVE 'play'
+
+buat FUNCTION dengan nama 'tampil'
+-READ dan SAVE 'penyanyi' yang akan mendapatkan input penyanyi yang diinginkan
+-FOR 'i' lebih kecil dari panjang data pada 'singer',nilai 'i' bertambah
+-IF 'penyanyi' sama dengan salah satu data array pada 'singer'
+-'play' sama dengan data array 'singer' yang di minta oleh 'penanyi'
+-IF 'play' sama dengan "rich chigga"
+- READ dan SAVE 'laguchigga' meminta judul lagu yang ingin diputarkan
+- FOR 'j' lebih kecil dari panjang data pada 'song_list_chigga','j' bertambah
+- IF 'laguchigga' sama dengan salah satu data array pada 'song_list_chigga'
+- DISPLAY "memutar lagu" + 'singer[i]' + "dengn judul" + 'song_list_chigga[j]'
+- IF END
+- IF END
+-IF 'penyanyi' sama dengan salah satu data array pada 'singer'
+-'play' sama dengan data array 'singer' yang di minta oleh 'penanyi'
+-IF 'play' sama dengan "logic"
+- READ dan SAVE 'laguchigga' meminta judul lagu yang ingin diputarkan
+- FOR 'k' lebih kecil dari panjang data pada 'song_list_chigga','k' bertambah
+- IF 'laguchigga' sama dengan salah satu data array pada 'song_list_logic'
+- DISPLAY "memutar lagu" + 'singer[i]' + "dengn judul" + 'song_list_logic[k]'
+- IF END
+- IF END
+-FOR END
+
+MEMANGGIL function tampil()
