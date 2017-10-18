@@ -26,19 +26,14 @@ function tampil(){
         for (var k = 0;k<song_list_logic.length;k++)
      
         if (song_list_logic[k] === lagulogic){
-       var playing = true;
-            if (playing === true) {
+       
        console.log ('memutar lagu '+ singer[i]+' dengan judul '+ song_list_logic[k] );
-                                              }
-            else if (playing === false){
-              console.log('lagu tidak ada');
-              
-            }
+        }
+            
                   
         }
    }
    
-} 
 } 
 }
 tampil()
